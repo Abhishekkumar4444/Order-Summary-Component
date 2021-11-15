@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: center; */
+}
+
+.row {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.row .hero {
+    width: 100%;
+}
+
+.row .hero img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.hero-text {
+    text-align: center;
+    margin: 1rem 2rem;
+    padding: 0 2rem;
+}
+
+.hero-text p {
+    font-size: 10px;
+    margin-top: .4rem;
+    font-weight: 500;
+}
+
+.icon-txt {
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 1rem 2.5rem;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.icon-txt h5 {
+    text-align: center;
+}
+
+.icon-txt img {
+    width: 35px;
+}
+
+.icon-txt span {
+    font-weight: 400;
+}
+
+.icon-txt a {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.icon-txt a:hover {
+    text-decoration: underline;
+}
+
+.btn1 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: hsl(245, 75%, 52%);
+    padding: .5rem;
+    width: 220px;
+    color: white;
+    border-radius: 7px;
+    transition: all .3s ease-in-out;
+}
+
+.btn1:hover {
+    background: hsl(224, 23%, 55%);
+}
+
+.btn2 {
+    background: #f6f8f6;
+    padding: .5rem;
+    width: 220px;
+    color: black;
+    border-radius: 7px;
+    transition: all .3s ease-in-out;
+}
+
+.btn2:hover {
+    background: hsl(224, 23%, 55%);
+}
+
+.btns a {
+    display: block;
+    margin: 1rem 0;
+    text-align: center;
+    cursor: pointer;
+}
